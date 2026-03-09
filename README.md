@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **AI-Powered Text Processor**
 
-## Getting Started
+An intelligent text processing application built with Next.js that leverages Chrome's built-in AI APIs for real-time language detection, summarization, and translation - all running locally in the browser without external API calls.
 
-First, run the development server:
+## 🚀 **Features**
 
+- **🌍 Language Detection** - Automatically detects the language of input text with confidence scores
+- **📝 Text Summarization** - Generates concise summaries of English text longer than 150 characters
+- **🔄 Translation** - Translates text between multiple languages using on-device AI
+- **💬 Chat Interface** - Clean, responsive chat UI for processing multiple messages
+- **📊 Confidence Indicators** - Displays detection confidence percentages for transparency
+
+## 🛠️ **Tech Stack**
+
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** CSS Modules
+- **UI Components:** Custom shadcn/ui components
+- **AI Integration:** Chrome Built-in AI APIs (Summarizer, Language Detector, Translator)
+- **State Management:** React Context API + Hooks
+
+## 🧠 **How It Works**
+
+The application uses Chrome's experimental on-device AI APIs:
+- **Language Detection:** `window.ai.languageDetector` identifies the input language
+- **Summarization:** `window.ai.summarizer` creates concise summaries
+- **Translation:** `window.ai.translator` provides real-time translation
+
+All processing happens locally in the browser - no data leaves your device!
+
+## 📸 **Screenshot**
+
+[Add screenshot here]
+
+## 🚦 **Getting Started**
+
+1. **Clone the repository**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/estheticallybawo/ai-text-processor.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies**
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Run the development server**
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Open [http://localhost:3000](http://localhost:3000)**
 
-## Learn More
+## ⚙️ **Requirements**
 
-To learn more about Next.js, take a look at the following resources:
+- Chrome browser (Canary or Dev channel recommended)
+- Enable Chrome's built-in AI features at `chrome://flags/#optimization-guide-on-device-model.`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 **Use Cases**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Content creators checking multilingual text
+- Students summarizing long articles
+- Language learners translating phrases
+- Quick language identification for international communication
 
-## Deploy on Vercel
+## 🔮 **Future Enhancements**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Support for more languages in translation
+- Export chat history
+- Dark/light theme toggle
+- Voice input integration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 **Contributing**
+
+Contributions are welcome! Feel free to open issues or submit PRs.
+
+## 📄 **License**
+
+MIT
+
+## 👩‍💻 **Author**
+
+**Esther Bawo Tsotso**
+- GitHub: [@estheticallybawo](https://github.com/estheticallybawo)
+- Built for [HNG Tech Internship](https://hng.tech)
+
+---
+
+*This project demonstrates practical implementation of on-device AI capabilities in modern web applications, showcasing real-time language processing without compromising user privacy.*
