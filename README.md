@@ -30,7 +30,8 @@ All processing happens locally in the browser - no data leaves your device!
 
 ## 📸 **Screenshot**
 
-[Add screenshot here]
+[<img width="1359" height="599" alt="image" src="https://github.com/user-attachments/assets/f7b9363a-6f41-4f9c-97b3-dd8f8f3c6073" />
+]
 
 ## 🚦 **Getting Started**
 
