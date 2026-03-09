@@ -4,11 +4,11 @@ An intelligent text processing application built with Next.js that leverages Chr
 
 ##  **Features**
 
-- ** Language Detection** - Automatically detects the language of input text with confidence scores
-- ** Text Summarization** - Generates concise summaries of English text longer than 150 characters
-- ** Translation** - Translates text between multiple languages using on-device AI
-- ** Chat Interface** - Clean, responsive chat UI for processing multiple messages
-- ** Confidence Indicators** - Displays detection confidence percentages for transparency
+- **Language Detection** - Automatically detects the language of input text with confidence scores
+- **Text Summarization** - Generates concise summaries of English text longer than 150 characters
+- **Translation** - Translates text between multiple languages using on-device AI
+- **Chat Interface** - Clean, responsive chat UI for processing multiple messages
+- **Confidence Indicators** - Displays detection confidence percentages for transparency
 
 ##  **Tech Stack**
 
